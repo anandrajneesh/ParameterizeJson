@@ -2,12 +2,14 @@
 parameterization of json for using it in test scripts
 
 ## Install
-
+<code>
 npm install -g parameterizejson
+</code>
 
 ## Usage
-
-parameterizeJson <folder_name>
+<code>
+parameterizeJson < foldername >
+</code>
 
 Note that folder should contain similar type of requests in json format.
 This utility will then create a modified version of each file and also a input.csv file with replaced values
